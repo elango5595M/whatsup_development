@@ -1,0 +1,31 @@
+Scanner s =new  Scanner(System.in);
+syste.out.println("Enter the number...");
+int num=s.nextInt();
+int rev=0;
+for(num !=0){
+rev=rev*10 +num%10; //0*10 0 1234%10=4 0+4=4  // 4*10=40 + 123%10=3 40+3=43  //430 12%10=2 430+2=432 //432+ 1%10=1 4321
+ num=num/10;       //1234/10=123 // 123/10=12   //12/10=2  //1/10=1 
+}
+
+1234
+4321 ans....
+
+swaping two numbers :
+===================
+int a=60, b=70;
+System.out.println("Before swaping the numbers"+a +" "+b);
+int t= a;          //t =60 ,a=70 ,b=60
+a=b;
+b=t;
+System.out.println("Before swaping the numbers"+a +" "+b);
+
+
+
+
+
+
+
+
+
+
+
